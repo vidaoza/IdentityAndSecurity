@@ -10,7 +10,13 @@ namespace IdentityAndSecurity.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            /**
+             * HELPFUL HINT
+             * 
+             * Use Debug\Windows\Immediate to inspect variables.
+             * 
+             * */
+           return View();
         }
 
         public ActionResult About()
